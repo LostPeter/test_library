@@ -1,0 +1,4 @@
+*.db
+*.opendb
+build2019/
+build/

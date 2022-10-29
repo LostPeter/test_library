@@ -1,0 +1,21 @@
+version: 2.0.1{build}
+
+branches:
+  only:
+    - master
+  
+image: 
+  - Visual Studio 2015
+  - Visual Studio 2017
+  
+configuration: 
+  - Release
+
+build:
+  parallel: true
+  project: MSVC\MyTinySTL_VS2015.sln
+  
+test_script:
+  - cmd: cd .\MSVC\x64\Release\
+  - cmd: MyTinySTL.exe
+

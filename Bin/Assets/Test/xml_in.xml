@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <item name="name" value="LostPeter" />
+    <item name="address" value="北京" />
+    <item name="age" value="40" />
+    <item name="value1">
+        <item name="1" value="23, 43, -2.3, 6.7, 90" />
+        <item name="2" value="-9, -19, 10, 2" />
+        <item name="3" value="-5, -55" />
+    </item>
+    <item name="value2" value="13.3, 1.9, 2.10" />
+    <item name="bei_jing">
+        <item name="address" value="海淀" />
+        <item name="car" value="true" />
+        <item name="dog" value="false" />
+    </item>
+    <item name="hu_bei">
+        <item name="address" value="襄阳" />
+        <item name="value1">
+            <item name="xiang_cheng" value="隆中" />
+            <item name="xiang_yang" value="汉江" />
+        </item>
+    </item>
+</document>

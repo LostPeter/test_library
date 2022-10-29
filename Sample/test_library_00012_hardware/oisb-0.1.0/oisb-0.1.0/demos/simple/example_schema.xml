@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemas>
+	<schema name="Default">
+		<action type="Trigger" name="Quit">
+			<bind>Keyboard/Q</bind>
+			<bind>Keyboard/Esc</bind>
+		</action>
+	</schema>
+	<schema name="Chopter">
+		<action type="AnalogAxis" name="Throttle" MinimumValue="0" MaximumValue="100">
+			<bind optional="1">Controller (Xbox 360 Wireless Receiver for Windows)/Axis 0</bind>
+		</action>
+		<action type="Trigger" name="Fire">
+			<bind optional="1">Controller (Xbox 360 Wireless Receiver for Windows)/Button 0</bind>
+		</action>
+	</schema>
+	<schema name="Car">
+		<action type="AnalogAxis" name="Brake" MinimumValue="0" MaximumValue="10" EmulationReturnValue="3" EmulationSpeed="1" EmulationReturnSpeed="2" />
+	</schema>
+</schemas>
