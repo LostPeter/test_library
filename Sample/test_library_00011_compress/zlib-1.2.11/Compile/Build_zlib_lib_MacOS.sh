@@ -48,4 +48,4 @@ for file in ${folderSrc}/*.h
 do 
     cp -rf $file $folderDst
 done
-
+cp -rf "../Build/MacOS/"$name_project"/zconf.h" $folderDst
