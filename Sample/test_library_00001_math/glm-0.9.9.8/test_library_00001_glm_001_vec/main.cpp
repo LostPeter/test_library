@@ -11,12 +11,10 @@ void printVec2(const glm::vec2& v)
 {
     cout << "vec2: [" << v.x << "," << v.y << "," << "]" << endl;
 }
-
 void printVec3(const glm::vec3& v)
 {
     cout << "vec3: [" << v.x << "," << v.y << "," << v.z << "]" << endl;
 }
-
 void printVec4(const glm::vec4& v)
 {
     cout << "vec4: [" << v.x << "," << v.y << "," << v.z << "," << v.w << "]" << endl;

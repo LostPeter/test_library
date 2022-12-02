@@ -10,7 +10,8 @@ So use the compile script free and enjoy it!
 *       (1) glm-0.9.9.8
 *           001) test_library_00001_glm_001_vec
 *           002) test_library_00001_glm_002_matrix
-*           003) test_library_00001_glm_003_quaterinion
+*           003) test_library_00001_glm_003_quaternion
+*           004) test_library_00001_glm_004_camera
 
 ### <00002> test_library_00002_model
 * 00002: Model
