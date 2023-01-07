@@ -223,3 +223,8 @@ So use the compile script free and enjoy it!
 *           001) test_library_00023_spdlog_001_LogBase
 *           002) test_library_00023_spdlog_002_LogStdOut
 *           003) test_library_00023_spdlog_003_LogFileOut
+
+### <00024> test_library_00024_noise
+* 00024: Noise
+*       (1) libnoise-1.0.0
+*           001) test_library_00024_noise_001_base
